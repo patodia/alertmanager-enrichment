@@ -28,7 +28,7 @@ docker build -t alert-manager-enrichment .
 
 # Step 3 : Deploy Prometheus and Alertmanager
 
-''' bash 
+'''bash 
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo update
 helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack
